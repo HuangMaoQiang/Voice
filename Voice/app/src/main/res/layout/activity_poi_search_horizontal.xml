@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@color/my_dark">
+
+        <ImageView
+            android:id="@+id/img_mic"
+            android:layout_width="137dp"
+            android:layout_height="137dp"
+            android:src="@mipmap/help_mic"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/img_help"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@mipmap/voice_help"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/gainsboro"
+            android:text="帮助"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/my_dark"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/navi_restult"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="“导航到天府广场”"
+                android:textSize="18sp"
+                android:gravity="center|left"
+                android:textColor="@color/lime"/>
+
+            <AutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/test"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:gravity="center|left"
+                android:textColor="@color/lime"
+                android:hint="输入终点" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="@color/gainsboro"
+                android:text="请说“第几个”或“退出”"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/poi_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

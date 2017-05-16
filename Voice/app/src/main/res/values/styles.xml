@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 最外层样式 -->
+    <!-- 最外层样式1 -->
+
+    <!-- 共用层样式 -->
+
+    <!-- 共用层样式 -->
+
+    <!-- 上圆角样式 -->
+
+    <!--无圆角样式  -->
+
+    <!-- 下圆角样式 -->
+
+    <!-- 全圆角样式 -->
+
+    <!-- 全圆角样式 -->
+    <!-- textview样式 -->
+
+    <!-- textview help样式 -->
+
+
+    <!-- 文本右边箭头样式 -->
+    <!-- 文本右边箭头样式 -->
+    <!-- 文本右边箭头样式 -->
+
+    <!-- 文本设置箭头样式 -->
+
+
+    <!-- view分割线样式 -->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
